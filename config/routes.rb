@@ -7,14 +7,12 @@ Rails.application.routes.draw do
       post '/signup', to: 'users#create'
       post '/signin', to: 'sessions#create'
       post '/rescue_sign_up', to: 'rescues#create'
-
-      post '/pets', to: "pets#index"
       get '/pets', to: 'pets#index'
       get '/rescues/:id', to: 'rescues#show'
       resources :users, only: [:index, :create, :update]
       resources :sessions, only: [:create]
       resources :rescues, only: [:index, :create, :update]
-      resources :pets
+      resources :pets, only: [:index, :create, :update]
     end
   end
 end

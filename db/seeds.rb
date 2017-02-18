@@ -9,7 +9,9 @@
 cathy = User.new(name: "Cathy", email: "cathy@me.com", password: "1234", is_rescue: true)
 sam = User.new(name: "Sam", email: "sam@me.com", password: "1234", is_rescue: true)
 nick = User.new(name: "Nick", email: "nick@me.com", password: "1234", is_rescue: false)
+nick.save
 tina = User.new(name: "Tina", email: "tina@me.com", password: "1234", is_rescue: false)
+tina.save
 
 mighty = Rescue.create(organization_name: "Mighty Mutts", street_address: "860 Broadway", city: "New York", state: "NY", zipcode: 10003, website: "wwww.mightymutts.org", phone: 5551212)
 
