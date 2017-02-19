@@ -14,6 +14,7 @@ class Api::V1::AdoptersController < ApplicationController
 
   def show
     @adopter = Adopter.find(params[:id])
+    binding.pry
     render json: @adopter
   end
 
