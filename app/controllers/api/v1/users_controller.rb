@@ -10,8 +10,13 @@ class Api::V1::UsersController < ApplicationController
         if params[:user][:rescue] == true
           user.rescue = Rescue.new(user_id: user[:id])
           user.save
+          render json: {rescue: user[:rescue], jwt: jwt}
+        else
+          user.adopter = Adopter.new(user_id: user[:id])
+          user.save
+          render json: {adopter: user[:adopter], jwt: jwt}
         end
-        render json: {rescue: user[:rescue], jwt: jwt}
+
       else
         render json: {:errors=>
          [{:detail=>"incorrect email or password",

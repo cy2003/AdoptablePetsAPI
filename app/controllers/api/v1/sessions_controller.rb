@@ -8,6 +8,7 @@ class Api::V1::SessionsController < ApplicationController
         render json:{
           user: user[:id],
           is_rescue: user[:is_rescue],
+          adopter_id: user.adopter.id,
           jwt: jwt
         }
     elsif user[:is_rescue] == true

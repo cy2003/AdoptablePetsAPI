@@ -9,10 +9,12 @@ Rails.application.routes.draw do
       post '/rescue_sign_up', to: 'rescues#create'
       get '/pets', to: 'pets#index'
       get '/rescues/:id', to: 'rescues#show'
+      post '/pets', to: 'pets#index'
       resources :users, only: [:index, :create, :update]
       resources :sessions, only: [:create]
       resources :rescues, only: [:index, :create, :update]
       resources :pets, only: [:index, :create, :update]
+      resources :adopters
     end
   end
 end
