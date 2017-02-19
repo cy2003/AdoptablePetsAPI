@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get '/pets', to: 'pets#index'
       get '/rescues/:id', to: 'rescues#show'
       post '/pets', to: 'pets#index'
+      get '/pets', to: 'pets#index'
       get '/adopters/:id', to: 'adopters#show'
       resources :users, only: [:index, :create, :update]
       resources :sessions, only: [:create]
