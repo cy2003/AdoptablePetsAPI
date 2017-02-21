@@ -13,10 +13,11 @@ Rails.application.routes.draw do
       get '/pets', to: 'pets#index'
       get '/adopters/:id', to: 'adopters#show'
       get '/pets/:id', to: 'pets#show'
+      post '/pets/:id', to: 'pets#show'
       resources :users, only: [:index, :create, :update]
       resources :sessions, only: [:create]
       resources :rescues, only: [:index, :create, :update]
-      resources :pets, only: [:index, :create, :update]
+      resources :pets, only: [:index, :show, :create, :update]
       resources :adopters
     end
   end

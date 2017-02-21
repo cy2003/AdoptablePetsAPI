@@ -29,8 +29,9 @@ sam.save
 
 
 hunney = Pet.create(pet_type: "dog", name: "Hunney", sex: "female", breed: "Staffy Mixed", age: 2, bio: "Hunney’s life was pretty mixed up until a Mighty Mutts volunteer saved her from a New York City shelter. She was abandoned and shuffled so much that she became trapped in her own fear. Hunney has been spending time in Vermont working on her confidence and learning to trust. She is now ready for her forever home. Hunney loves it outside of the city so much that we would like to keep her home in a rural environment.
-
+/n
 Spayed | Up-to-date with routine shots | House-trained | Good with: dogs, prefers a home without: cats, kids", rescue: mighty, image: "hunny.png")
+
 
 rue = Pet.create(pet_type: "dog", name: "Rue", sex: "female", breed: "Shih Tzu Mix", age: 3, bio:"Meet Rue! Recently rescued from a terrible life in a puppy mill, Rue is a timid but affectionate little gal looking for a quiet home where she can rest and recharge from her ordeal. Her freckled coat and adorable underbite are sooo endearing, and we are looking forward to finding her a great home to appreciate her personality, not just her puppy-producing capabilities. Based on vet estimates, we believe she is around 5 years old. Rue is still learning about walking on a leash, housebreaking, and everything else involved in being a dog. Because of her timid personality, we are recommending she go to an adult-only home.
 
@@ -80,6 +81,31 @@ Spayed/Neutered | Up-to-date with routine shots | House-trained",  rescue: might
 
 mighty.pets = [hunney, rue, pookie, clementine, ebon, giovanni, pepper, pickles, chewbacca, dolly, bambi, samory]
 mighty.save
+hunny.rescue = mighty
+hunny.save
+rue.rescue = mighty
+rue.save
+pookie.rescue = mighty
+pookie.save
+clementine.rescue = mighty
+clementine.save
+ebon.rescue = mighty
+ebon.save
+giovanni.rescue = mighty
+giovanni.save
+pepper.rescue = mighty
+pepper.save
+pickles.rescue = mighty
+pickles.save
+chewbacca.rescue = mighty
+chewbacca.save
+dolly.rescue = mighty
+dolly.save
+bambi.rescue = mighty
+bambi.save
+samory.rescue = mighty
+samory.save
+
 
 serena = Pet.create(pet_type: "cat", name: "Serena", sex: "female", breed: "Domestic Shorthair", age: 1, bio: "Meet Serena! Serena is a stunning one year old calico cat who came to Bideawee after being found abandoned. She has a unique and eye-catching black, orange, and white coat with pale green eyes. Serena is a very sweet cat who is also calm and quiet. She prefers to spend her time being pet by the staff or volunteers and taking cozy midday naps. Serena is looking for a home that matches her personality. Somewhere peaceful and quiet where she can learn to come out of her shell a little. Once Serena knows you her trepidation does wear off and she'll do great in a home. If you're looking for a beautiful and loving cat, come meet Serena!", rescue: bideawee, image: "serena.jpg")
 
