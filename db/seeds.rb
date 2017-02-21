@@ -81,29 +81,17 @@ Spayed/Neutered | Up-to-date with routine shots | House-trained",  rescue: might
 
 mighty.pets = [hunney, rue, pookie, clementine, ebon, giovanni, pepper, pickles, chewbacca, dolly, bambi, samory]
 mighty.save
-# hunney.rescue = mighty
 hunney.save
-# rue.rescue = mighty
 rue.save
-# pookie.rescue = mighty
 pookie.save
-# clementine.rescue = mighty
 clementine.save
-# ebon.rescue = mighty
 ebon.save
-# giovanni.rescue = mighty
 giovanni.save
-# pepper.rescue = mighty
 pepper.save
-# pickles.rescue = mighty
 pickles.save
-# chewbacca.rescue = mighty
 chewbacca.save
-# dolly.rescue = mighty
 dolly.save
-# bambi.rescue = mighty
 bambi.save
-# samory.rescue = mighty
 samory.save
 
 

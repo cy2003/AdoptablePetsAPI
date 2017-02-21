@@ -1,5 +1,9 @@
 class Api::V1::UsersController < ApplicationController
 
+  def index
+
+  end
+
 # this creates a new user. Creates on sign up
   def create
     user = User.new(user_params)
