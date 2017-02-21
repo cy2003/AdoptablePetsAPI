@@ -29,7 +29,7 @@ sam.save
 
 
 hunney = Pet.create(pet_type: "dog", name: "Hunney", sex: "female", breed: "Staffy Mixed", age: 2, bio: "Hunney’s life was pretty mixed up until a Mighty Mutts volunteer saved her from a New York City shelter. She was abandoned and shuffled so much that she became trapped in her own fear. Hunney has been spending time in Vermont working on her confidence and learning to trust. She is now ready for her forever home. Hunney loves it outside of the city so much that we would like to keep her home in a rural environment.
-/n
+
 Spayed | Up-to-date with routine shots | House-trained | Good with: dogs, prefers a home without: cats, kids", rescue: mighty, image: "hunny.png")
 
 
@@ -81,29 +81,29 @@ Spayed/Neutered | Up-to-date with routine shots | House-trained",  rescue: might
 
 mighty.pets = [hunney, rue, pookie, clementine, ebon, giovanni, pepper, pickles, chewbacca, dolly, bambi, samory]
 mighty.save
-hunny.rescue = mighty
-hunny.save
-rue.rescue = mighty
+# hunney.rescue = mighty
+hunney.save
+# rue.rescue = mighty
 rue.save
-pookie.rescue = mighty
+# pookie.rescue = mighty
 pookie.save
-clementine.rescue = mighty
+# clementine.rescue = mighty
 clementine.save
-ebon.rescue = mighty
+# ebon.rescue = mighty
 ebon.save
-giovanni.rescue = mighty
+# giovanni.rescue = mighty
 giovanni.save
-pepper.rescue = mighty
+# pepper.rescue = mighty
 pepper.save
-pickles.rescue = mighty
+# pickles.rescue = mighty
 pickles.save
-chewbacca.rescue = mighty
+# chewbacca.rescue = mighty
 chewbacca.save
-dolly.rescue = mighty
+# dolly.rescue = mighty
 dolly.save
-bambi.rescue = mighty
+# bambi.rescue = mighty
 bambi.save
-samory.rescue = mighty
+# samory.rescue = mighty
 samory.save
 
 
