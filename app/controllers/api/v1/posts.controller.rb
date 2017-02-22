@@ -4,6 +4,7 @@ class Api::V1::PostsController < ApplicationController
   end
 
   def create
+    binding.pry
     post1 = Post.new(params)
     post1.pet = pet_post
     if post1.save
